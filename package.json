@@ -2,7 +2,7 @@
   "name": "react-todo-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://vegvisir46.github.io/react-ts-todo_08/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@chakra-ui/react": "^1.8.6",

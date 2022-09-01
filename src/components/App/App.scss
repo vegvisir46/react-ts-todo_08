@@ -1,0 +1,14 @@
+:root {
+    --content-width: 500px;
+    --content-offset: 15px;
+}
+
+body {
+    min-width: 375px;
+}
+
+.content {
+    padding: 100px var(--content-offset) 50px;
+    max-width: var(--content-width);
+    margin: 0 auto;
+}

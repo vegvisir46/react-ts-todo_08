@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input[aria-invalid=true] {
+    &::placeholder {
+        color: #e53e3e;
+    }
+}

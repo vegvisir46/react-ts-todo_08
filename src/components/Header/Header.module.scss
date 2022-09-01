@@ -1,0 +1,72 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: royalblue;
+    box-shadow: 0 0 15px rgba(#000, 0.5);
+    z-index: 100;
+}
+
+[data-theme="dark"] .header {
+    background-color: #0d1016;
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    margin-right: 25px;
+}
+
+[data-theme="light"] .input {
+    background-color: var(--chakra-colors-gray-100);
+
+    &:focus {
+        background-color: var(--chakra-colors-gray-100);
+    }
+}
+
+.input {
+    max-width: calc(var(--content-width) - calc(var(--content-offset) * 2));
+    margin-left: 10px;
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    color: #fff;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.btn {
+    color: #fff;
+}
